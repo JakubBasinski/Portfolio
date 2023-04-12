@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  background: url('');
+  background-color: #080605;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url('../public/images/roallercoaster.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}

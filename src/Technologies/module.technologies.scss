@@ -1,0 +1,102 @@
+.root-technologies {
+  display: flex;
+  height: 75vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies-wrapper {
+  display: flex;
+  gap: 50px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.technologyDown {
+  height: 90%;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.293);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  // justify-content: space-around;
+
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0 2px 2px black;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.logo {
+  height: 65px;
+  width: 65px;
+  border-radius: 5px;
+}
+
+.technology-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 5 columns with equal width */
+  grid-template-rows: repeat(4, 1fr); /* 2 rows with equal height */
+  gap: 25px; /* spacing between grid items */
+}
+
+.technologies-item {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(2.6px);
+  padding: 20px 60px;
+}
+
+.p-technology {
+  font-family: 'Roboto', cursive;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.technology-details {
+  height: auto;
+}
+
+.single-technology {
+  /* From https://css.glass */
+  height: auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icons-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-logo {
+  font-family: 'Roboto', cursive;
+  font-size: 20px;
+  text-shadow: 0 1px 1px black;
+}
+
+.single-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
